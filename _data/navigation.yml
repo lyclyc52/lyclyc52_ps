@@ -1,10 +1,11 @@
 # main links
 main:
-  - title: "Publication"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Home"
+    url: /
+  # - title: "Publication"
+  #   url: /publication/
   - title: "CV"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "About"
-    url: /about/
+    url: /assets/CV.pdf
+
   # - title: "Sample Collections"
   #   url: /collection-archive/
