@@ -16,9 +16,9 @@ Syntax highlighting is a feature that displays source code, in different colors 
 
 ### GFM Code Blocks
 
-GitHub Flavored Markdown [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/) are supported. To modify styling and highlight colors edit `/_sass/syntax.scss`.
+GitHub Flavored Markdown [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/) are supported. To modify styling and highlight colors edit `/_sass/syntax.s`.
 
-```css
+```
 #container {
   float: left;
   margin: 0 -240px 0 0;
@@ -26,7 +26,7 @@ GitHub Flavored Markdown [fenced code blocks](https://help.github.com/articles/c
 }
 ```
 
-{% highlight scss %}
+{% highlight s %}
 .highlight {
   margin: 0;
   padding: 1em;
@@ -100,7 +100,7 @@ gulp.task('html', () => {
       removeAttributeQuotes: false,
       removeRedundantAttributes: false,
       minifyJS: true,
-      minifyCSS: true
+      minify: true
     })))
     .pipe(when(argv.prod, size({title: 'optimized HTML'})))
     .pipe(when(argv.prod, gulp.dest(paths.siteFolderName)))

@@ -306,5 +306,5 @@ defaults:
 
 cv_url: "./assets/CV.png"
 pub_img:
-  instance_nerf: "./assets/img/instance_nerf.gif"
-  nerf_rpn: "./assets/img/nerf_rpn.png"
+  instance_nerf: {{ site.baseurl }}/assets/img/instance_nerf.gif
+  nerf_rpn: {{ site.baseurl }}/assets/img/nerf_rpn.png"
