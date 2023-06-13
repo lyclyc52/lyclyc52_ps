@@ -14,6 +14,8 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+markdown: kramdown
+
 # Site Settings
 locale                   : "en-US"
 title                    : "Yichen Liu"
